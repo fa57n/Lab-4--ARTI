@@ -5,8 +5,8 @@ true.
 X = sara ;
 X = nora.
 
-39 ?- male(X).
-X = ali .
+39 ?- male(_).
+true.
 
 40 ?- parent(X,Y), parent(Y,faisal).
 X = ali,
